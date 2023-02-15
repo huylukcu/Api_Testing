@@ -8,7 +8,6 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.CoreMatchers.equalTo;
 
 public class Get03 extends JsonPlaceHolderBaseUrl {
-
         /*
          Given
                https://jsonplaceholder.typicode.com/todos/23
@@ -55,5 +54,3 @@ public class Get03 extends JsonPlaceHolderBaseUrl {
         }
 
     }
-
-
