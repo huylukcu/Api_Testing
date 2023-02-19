@@ -61,7 +61,5 @@ public class Get07 extends JsonPlaceHolderBaseUrl {
 
         //2nd Way:
         jsonPath.getList("findAll{it.id>190}");//Groovy Language ('it' is like 't->' in lambda )
-
-
     }
 }
