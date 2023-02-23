@@ -28,7 +28,6 @@ public class Get08 extends JsonPlaceHolderBaseUrl {
                 "id": 2,
                 "title": "quis ut nam facilis et officia qui",
                 "completed": false
-
             }
      */
 
