@@ -14,7 +14,6 @@ import java.util.Map;
 
             return goRestDataMap;
         }
-
         public Map<String,Object> expectedDataMapSetUp(Object meta,Map<String,String> data){
             Map<String,Object> expectedDataMap = new HashMap<>();
             expectedDataMap.put("meta",meta);
@@ -22,4 +21,3 @@ import java.util.Map;
 
             return expectedDataMap;
         }}
-

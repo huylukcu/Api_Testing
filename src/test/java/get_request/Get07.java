@@ -47,7 +47,6 @@ public class Get07 extends JsonPlaceHolderBaseUrl {
         List<Integer> ids = jsonPath.getList("id");
         //System.out.println("ids = " + ids);
 
-
         List<Integer> idsGreaterThan190 = new ArrayList<>();
         for(int w:ids){
             if(w>190){
@@ -57,8 +56,7 @@ public class Get07 extends JsonPlaceHolderBaseUrl {
         System.out.println("idsGreaterThan190 = " + idsGreaterThan190);
 
         assertEquals(10,idsGreaterThan190.size());
-
-
+       
         //2nd Way:
         jsonPath.getList("findAll{it.id>190}");//Groovy Language ('it' is like 't->' in lambda )
     }
