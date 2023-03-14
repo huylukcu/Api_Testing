@@ -65,7 +65,3 @@ public class Patch01 extends JsonPlaceHolderBaseUrl {
         "completed", equalTo(true));
         }
 }
-
-
-
-
