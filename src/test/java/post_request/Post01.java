@@ -22,7 +22,6 @@ public class Post01 extends JsonPlaceHolderBaseUrl { /*
               }
         When
             I send POST Request to the Url
-​
         Then
             Status code is 201
         And
