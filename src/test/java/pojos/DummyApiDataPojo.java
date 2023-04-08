@@ -1,7 +1,6 @@
 package pojos;
 
 import org.codehaus.jackson.annotate.JsonIgnoreProperties;
-
 @JsonIgnoreProperties
 public class DummyApiDataPojo {
     private String employee_name;
