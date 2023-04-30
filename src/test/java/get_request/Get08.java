@@ -29,7 +29,6 @@ public class Get08 extends JsonPlaceHolderBaseUrl {
                 "completed": false
             }
      */
-
     @Test
     public void get08(){
         //Set the url

@@ -50,8 +50,4 @@ public class Get01 {
         response.then().assertThat().statusCode(200).contentType("application/json").statusLine("HTTP/1.1 200 OK");
 
     }
-
-
-
-
 }
