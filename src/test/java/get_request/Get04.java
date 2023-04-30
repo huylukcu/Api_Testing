@@ -58,5 +58,4 @@ import static org.hamcrest.core.IsIterableContaining.hasItem;
                 If you use one single "body()" method with multiple assertions it will work like "Soft Assertion"
        */
         }
-
     }
