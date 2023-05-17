@@ -59,4 +59,3 @@ public class Get10 extends GoRestBaseUrl {
             assertEquals(goRestDataMap.get("status"),((Map)(actualData.get("data"))).get("status"));
         }
     }
-
