@@ -11,6 +11,5 @@ public class GMIBankBaseUrl {
         public void setUp(){
 
             spec = new RequestSpecBuilder().setBaseUri("https://www.gmibank.com/api").build();
-
         }
     }
