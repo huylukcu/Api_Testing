@@ -32,6 +32,4 @@ public class Delete02 extends HerOkuAppBaseUrl {
 
 
 }
-
-
 }
